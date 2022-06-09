@@ -32,7 +32,7 @@ export const WaycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Be part of the world’s loudest NFT community
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                When you join the Lazy Lions - by purchasing an NFT or just joining our Discord - you’re instantly part of our community. A global community that empowers and supports each other on this exciting journey into Web 3.0. We’re focused on building authentic connections as we delve into the metaverse together.
+                                When you join the Weary Ape Yacht Club - by purchasing an NFT or just joining our Discord - you’re instantly part of our community. A global community that empowers and supports each other on this exciting journey into Web 3.0. We’re focused on building authentic connections as we delve into the metaverse together.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
@@ -46,11 +46,11 @@ export const WaycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Access Reyna Finance
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                As a Lazy Lions NFT holder, you automatically gain access to our exclusive ROARwards program which rewards you for participating in the community. Our program will continuously evolve as we look at new ways to reward our members with additional benefits.
+                                As a Weary Ape Yacht Club NFT holder, you automatically gain access to our exclusive REINwards program which rewards you for participating in the community. Our program will continuously evolve as we look at new ways to reward our members with additional benefits.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
-                            <div class="future-proof-item future-proof-img">
+                            <div class="wayc-benefits-item wayc-benefits-img2">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
@@ -60,11 +60,11 @@ export const WaycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Explore the Metaverse with us
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                At Lazy Lions, we are committed to exploring all the possibilities of the metaverse. By joining the community, you will have access to every metaverse we enter. Plus, there will be additional perks within our metaverse Private Island for Lazy Lions NFT holders.
+                                At Weary Ape Yacht Club, we are committed to exploring all the possibilities of the metaverse. By joining the community, you will have access to every metaverse we enter. Plus, there will be additional perks within our metaverse Private Island for Weary Ape Yacht Club NFT holders.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
+                            <div class="wayc-benefits-item wayc-benefits-img3">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
@@ -74,11 +74,11 @@ export const WaycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Own the full commercial rights
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                When you purchase a Lazy Lions or Lazy Bungalows NFT, the art is totally and completely yours. Whether you want to print and sell merchandise, use it in advertising, or want it to be the star of its own show!
+                                When you purchase a Weary Ape Yacht Club or Weary Lands NFT, the art is totally and completely yours. Whether you want to print and sell merchandise, use it in advertising, or want it to be the star of its own show!
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
+                            <div class="wayc-benefits-item wayc-benefits-img4">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
@@ -88,11 +88,11 @@ export const WaycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Display your art in high resolution
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                All Lazy Lions are available as high resolution, 10,000px by 10,000px JPEGs. This allows you to print a high-quality physical copy of your NFT, display it in high res on a screen, and use it for large-scale print or display.
+                                All Weary Ape Yacht Club are available as high resolution, 10,000px by 10,000px JPEGs. This allows you to print a high-quality physical copy of your NFT, display it in high res on a screen, and use it for large-scale print or display.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
+                            <div class="wayc-benefits-item wayc-benefits-img5">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
@@ -102,11 +102,11 @@ export const WaycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Have a voice in the project
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                Lazy Lions gives you a voice in the development and success of the project through AMAs with the dev team and formalised voting systems.
+                                Weary Ape Yacht Club gives you a voice in the development and success of the project through AMAs with the dev team and formalised voting systems.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
+                            <div class="wayc-benefits-item wayc-benefits-img6">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
@@ -116,11 +116,11 @@ export const WaycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Decorate our Metaverse with NFT arts
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                In September, we airdropped all Lazy Lions holders a Lazy Bungalow - an NFT that could be used as a social media banner. The Bungalow dApp was then launched, allowing owners to link their other NFTs in the frames within their Lazy Bungalow.
+                                In September, we airdropped all Weary Ape Yacht Club holders a Weary Land - an NFT that could be used as a social media banner. The Lands dApp was then launched, allowing owners to link their other NFTs in the frames within their Weary Land.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
+                            <div class="wayc-benefits-item wayc-benefits-img7">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
@@ -130,11 +130,11 @@ export const WaycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Expand your network
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                Joining the Lazy Lions community opens the door to a global network of like-minded people from all walks of life. Our community is filled with welcoming individuals who love to connect with newcomers. Plus, We even have dedicated networking channels for individuals who love to connect and welcome newcomers in our Discord!
+                                Joining the Weary Ape Yacht Club community opens the door to a global network of like-minded people from all walks of life. Our community is filled with welcoming individuals who love to connect with newcomers. Plus, We even have dedicated networking channels for individuals who love to connect and welcome newcomers in our Discord!
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
+                            <div class="wayc-benefits-item wayc-benefits-img8">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
@@ -144,11 +144,11 @@ export const WaycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Receive Airdrops
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                As a Lazy Lions NFT holder, you'll be eligible for future airdrops of tokens and other prizes. Previous airdrops include Lazy Lions Bungalows NFTs and Lazy Halloween tokens.
+                                As a Weary Ape Yacht Club NFT holder, you'll be eligible for future airdrops of tokens and other prizes. Previous airdrops include Weary Ape Chemistry Club NFTs and REIN tokens.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
+                            <div class="wayc-benefits-item wayc-benefits-img9">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>

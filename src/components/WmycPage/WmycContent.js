@@ -4,21 +4,21 @@ export const WmycContent = () => {
             <section class="currency-info-wrp">
                 <div class="currency-info">
                     <h1 class="currency-info-title txt-bold">Weary Mutant Yacht Club</h1>
-                    <span class="currency-info-subtitle txt-regular">The MAYC is a way to reward our ape holders with an entirely new NFT—a “mutant” version of their ape—while also allowing newcomers into the BAYC ecosystem at a lower tier of membership. Mutants represent the final tier of membership; everything going forward occurs with the intention of accruing utility and member’s-only benefits to Bored Apes foremost, but also Mutants, and to a lesser extent, Bored Apes with BAKC companions.</span>
+                    <span class="currency-info-subtitle txt-regular">The WAYC is a way to reward our ape holders with an entirely new NFT—a “mutant” version of their ape—while also allowing newcomers into the WAYC ecosystem at a lower tier of membership. Mutants represent the final tier of membership; everything going forward occurs with the intention of accruing utility and member’s-only benefits to Weary Apes foremost, but also Mutants, and to a lesser extent, Weary Apes with BAKC companions.</span>
                     <div class="currency-info-additional">
                         <button class="currency-info-additional-btn txt-medium">Read More</button>
                     </div>
                 </div>
             </section>
             <section class="currency-description-wrp">
-                <div class="currency-description-item currency-description-img">
+                <div class="currency-description-item currency-description-img-wmyc">
                     {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                 </div>
                 <div class="currency-description-item currency-description">
                     <div class="currency-description-item-wrp">
-                        <h2 class="currency-description-title txt-medium">Serums (for WAYC members)</h2>
+                        <h2 class="currency-description-title txt-medium">Note</h2>
                         <p class="currency-description-txt txt-regular">
-                            One way to create a MUTANT is when a Bored Ape ingests a vial of mutant serum. There are three tiers of mutant serum vials: M1, M2, and Mega Mutant (M3). A snapshot of all Bored Ape token holders was taken at 4pm ET on 8/28/21, and all mutant serums that will exist have been airdropped at a random distribution to corresponding wallets. If a Bored Ape ingests an M1 or M2 serum, the resulting MUTANT will retain traits of the original ape. If a Bored Ape ingests an M3 serum? Who knows.
+                            Serum vials are burned upon use, and a Weary Ape can only ingest a serum of a given vial-type once. This means that any given Weary Ape can be exposed to an M1, M2, or M3 vial, resulting in three different mutations of that Weary Ape. Vials are nasty stuff however. An ape will never ingest a vial of a given type after it has consumed one before.
                         </p>
                     </div>
                 </div>
@@ -27,14 +27,28 @@ export const WmycContent = () => {
                 <ul class="currency-features-list">
                     <li class="currency-features-list-item">
                         <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">Distribution & Pricing
+                            <h2 class="currency-features-list-item-title txt-medium">Serums (for WAYC members)
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                A total of 10,000 Mutant Serums have been airdropped to all BAYC token holders. 10,000 Mutant Apes will be available to mint in a public Dutch Auction. The price to mint a Mutant will start 3 ETH, and gradually reduce to .01 ETH over the course of 9 hours. This is to allow the community to set a fair starting price and, hopefully, avoid any gas war. At the time of minting, Mutant Apes will be unrevealed. Once the public sale has concluded, a randomized starting index will be set and all Mutant Apes will be revealed. This is to prevent anyone, including the founders, from knowing which mutant will be minted during the sale. After the starting index is set and the mutants are revealed, BAYC members will be able to begin mutating their apes with serums here on the site.
+                                One way to create a MUTANT is when a Weary Ape ingests a vial of mutant serum. There are three tiers of mutant serum vials: M1, M2, and Mega Mutant (M3). A snapshot of all Weary Ape token holders was taken at 4pm ET on 8/28/21, and all mutant serums that will exist have been airdropped at a random distribution to corresponding wallets. If a Weary Ape ingests an M1 or M2 serum, the resulting MUTANT will retain traits of the original ape. If a Weary Ape ingests an M3 serum? Who knows.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
-                            <div class="invest-economy-item invest-economy-img">
+                            <div class="wmyc-benefits-item wmyc-benefits-img1">
+                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
+                            </div>
+                        </div>
+                    </li>
+                    <li class="currency-features-list-item">
+                        <div class="currency-features-list-item-info">
+                            <h2 class="currency-features-list-item-title txt-medium">Distribution & Pricing
+                            </h2>
+                            <span class="currency-features-list-item-subtitle txt-regular">
+                                A total of 10,000 Mutant Serums have been airdropped to all WAYC token holders. 10,000 Mutant Apes will be available to get them on OpenSea. Once the public sale has concluded, a randomized starting index will be set and all Mutant Apes will be revealed. This is to prevent anyone, including the founders, from knowing which mutant will be got during the sale. After the starting index is set and the mutants are revealed, WAYC members will be able to begin mutating their apes with serums here on the site.
+                            </span>
+                        </div>
+                        <div class="currency-features-list-item-img">
+                            <div class="wmyc-benefits-item wmyc-benefits-img2">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
@@ -44,11 +58,11 @@ export const WmycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Mutation (for WAYC members)
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                BAYC token holders will be able to begin applying their airdropped serums to their Bored Apes upon completion of the public sale. The exact time will be announced on Twitter (@BoredapeYC) and in our Discord. Applying a serum to a Bored Ape will burn that serum, and result in a MUTANT NFT which may retain aspects of the original Bored Ape. The Bored Ape NFT will not be harmed. THERE IS NO SET TIME LIMIT FOR APPLYING SERUMS. Remember, a Bored Ape can only be mutated via a vial of a certain type once. We will introduce a method for checking whether a Bored Ape has been exposed to a given vial type.
+                                WAYC token holders will be able to begin applying their airdropped serums to their Weary Apes upon completion of the public sale. The exact time will be announced on Twitter (@WearyApeYC) and in our Discord. Applying a serum to a Weary Ape will burn that serum, and result in a MUTANT NFT which may retain aspects of the original Weary Ape. The Weary Ape NFT will not be harmed. THERE IS NO SET TIME LIMIT FOR APPLYING SERUMS. Remember, a Weary Ape can only be mutated via a vial of a certain type once. We will introduce a method for checking whether a Weary Ape has been exposed to a given vial type.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
-                            <div class="future-proof-item future-proof-img">
+                            <div class="wmyc-benefits-item wmyc-benefits-img3">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
