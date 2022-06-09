@@ -537,7 +537,8 @@ a {
             background-image: url(../imgs/wmyc-bar.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: cover;
+            border-radius: 15px;
 
             & img {
                 width: 100%;
