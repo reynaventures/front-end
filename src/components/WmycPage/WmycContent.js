@@ -4,10 +4,7 @@ export const WmycContent = () => {
             <section class="currency-info-wrp">
                 <div class="currency-info">
                     <h1 class="currency-info-title txt-bold">Weary Mutant Yacht Club</h1>
-                    <span class="currency-info-subtitle txt-regular">The WAYC is a way to reward our ape holders with an entirely new NFT—a “mutant” version of their ape—while also allowing newcomers into the WAYC ecosystem at a lower tier of membership. Mutants represent the final tier of membership; everything going forward occurs with the intention of accruing utility and member’s-only benefits to Weary Apes foremost, but also Mutants, and to a lesser extent, Weary Apes with BAKC companions.</span>
-                    <div class="currency-info-additional">
-                        <button class="currency-info-additional-btn txt-medium">Read More</button>
-                    </div>
+                    <span class="currency-info-subtitle txt-regular">The WAYC is a way to reward our ape holders with an entirely new NFT—a “mutant” version of their ape—while also allowing newcomers into the WAYC ecosystem at a lower tier of membership. Mutants represent the final tier of membership; everything going forward occurs with the intention of accruing utility and member’s-only benefits to Weary Apes foremost, but also Mutants, and to a lesser extent, Weary Apes with other partners.</span>
                 </div>
             </section>
             <section class="currency-description-wrp">
@@ -25,18 +22,20 @@ export const WmycContent = () => {
             </section>
             <div class="currency-features">
                 <ul class="currency-features-list">
-                    <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
+                    <li class="currency-features-list-item flex-direction">
+                        <div class="currency-features-list-item-info-content">
                             <h2 class="currency-features-list-item-title txt-medium">Serums (for WAYC members)
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
                                 One way to create a MUTANT is when a Weary Ape ingests a vial of mutant serum. There are three tiers of mutant serum vials: M1, M2, and Mega Mutant (M3). A snapshot of all Weary Ape token holders was taken at 4pm ET on 8/28/21, and all mutant serums that will exist have been airdropped at a random distribution to corresponding wallets. If a Weary Ape ingests an M1 or M2 serum, the resulting MUTANT will retain traits of the original ape. If a Weary Ape ingests an M3 serum? Who knows.
                             </span>
                         </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="wmyc-benefits-item wmyc-benefits-img1">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
+                        <div class="wmyc-mutation">
+                            <div class="wmyc-mutation-img1"></div>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M231.536 475.535l7.071-7.07c4.686-4.686 4.686-12.284 0-16.971L60.113 273H436c6.627 0 12-5.373 12-12v-10c0-6.627-5.373-12-12-12H60.113L238.607 60.506c4.686-4.686 4.686-12.284 0-16.971l-7.071-7.07c-4.686-4.686-12.284-4.686-16.97 0L3.515 247.515c-4.686 4.686-4.686 12.284 0 16.971l211.051 211.05c4.686 4.686 12.284 4.686 16.97-.001z"/></svg>
+                            <div class="wmyc-mutation-img2"></div>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M216.464 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L387.887 239H12c-6.627 0-12 5.373-12 12v10c0 6.627 5.373 12 12 12h375.887L209.393 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L233.434 36.465c-4.686-4.687-12.284-4.687-16.97 0z"/></svg>
+                            <div class="wmyc-mutation-img3"></div>
                         </div>
                     </li>
                     <li class="currency-features-list-item">
@@ -58,13 +57,22 @@ export const WmycContent = () => {
                             <h2 class="currency-features-list-item-title txt-medium">Mutation (for WAYC members)
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                WAYC token holders will be able to begin applying their airdropped serums to their Weary Apes upon completion of the public sale. The exact time will be announced on Twitter (@WearyApeYC) and in our Discord. Applying a serum to a Weary Ape will burn that serum, and result in a MUTANT NFT which may retain aspects of the original Weary Ape. The Weary Ape NFT will not be harmed. THERE IS NO SET TIME LIMIT FOR APPLYING SERUMS. Remember, a Weary Ape can only be mutated via a vial of a certain type once. We will introduce a method for checking whether a Weary Ape has been exposed to a given vial type.
+                                WAYC token holders will be able to begin applying their airdropped serums to their Weary Apes upon completion of the public sale. The exact time will be announced on Twitter (@WearyApeYC) and in our Discord. Applying a serum to a Weary Ape will burn that serum, and result in a MUTANT NFT which may retain aspects of the original Weary Ape. The Weary Ape NFT will not be harmed.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
                             <div class="wmyc-benefits-item wmyc-benefits-img3">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
+                        </div>
+                    </li>
+                    <li class="currency-features-list-item">
+                        <div class="currency-features-list-item-info-content">
+                            <h2 class="currency-features-list-item-title txt-medium">There is no set time limit for applying serums.
+                            </h2>
+                            <span class="currency-features-list-item-subtitle txt-regular">
+                                Remember, a Weary Ape can only be mutated via a vial of a certain type once. We will introduce a method for checking whether a Weary Ape has been exposed to a given vial type.
+                            </span>
                         </div>
                     </li>
                 </ul>

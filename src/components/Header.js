@@ -40,8 +40,8 @@ export const Header = () => {
                         <li class="navigation-list-item txt-regular">
                             <span class="navigation-list-item-txt" href="#">Investment Products</span>
                             <div className="navigation-list-item-menu">
-                                <Link to={"/all-products"} class="navigation-list-item-menu-link">All Products</Link>
-                                <Link to={"/ecosystem"} class="navigation-list-item-menu-link">Ecosystem</Link>
+                                <Link to={"/"} class="navigation-list-item-menu-link">All Products</Link>
+                                <a href="#" className="navigation-list-item-menu-link">Ecosystem</a>
                                 <a href="#" className="navigation-list-item-menu-link">Reyna® Polygon Trust</a>
                                 <a href="#" className="navigation-list-item-menu-link">Reyna® DeFi Fund</a>
                                 <a href="#" className="navigation-list-item-menu-link">Investor Deck</a>
@@ -53,6 +53,7 @@ export const Header = () => {
                                 <Link to={'/wayc'} className="navigation-list-item-menu-link">Weary Ape Yacht Club</Link>
                                 <Link to={'/wmyc'} className="navigation-list-item-menu-link">Weary Mutant Yacht Club</Link>
                                 <a href="#" className="navigation-list-item-menu-link">WearyVerse</a>
+                                <a href="https://snapshot.org/#/wearyapeyc.eth" target="_blank" className="navigation-list-item-menu-link">Vote</a>
                             </div>
                         </li>
                         <li class="navigation-list-item txt-regular">
@@ -69,7 +70,7 @@ export const Header = () => {
                                 <Link to={'/about-reyna'} className="navigation-list-item-menu-link">About Reyna</Link>
                                 <a href="#" className="navigation-list-item-menu-link">Careers</a>
                                 <Link to={'/press'} className="navigation-list-item-menu-link">Press</Link>
-                                <a href="#" className="navigation-list-item-menu-link">Blog</a>
+                                <a href="https://medium.com/@reynaventures" target="_blank" className="navigation-list-item-menu-link">Blog</a>
                                 <Link to={'/FAQs'} className="navigation-list-item-menu-link">FAQs</Link>
                             </div>
                         </li>

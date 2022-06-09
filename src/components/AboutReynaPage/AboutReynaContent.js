@@ -4,7 +4,7 @@ export const AboutReynaContent = () => {
             <section class="currency-info-wrp">
                 <div class="currency-info">
                     <h1 class="currency-info-title txt-bold">A Leader in Digital Currency Investing</h1>
-                    <span class="currency-info-subtitle txt-regular">We believe that digital currencies will revolutionize our legacy economic, political, and social systems. With that transformation comes a meaningful generational shift in how institutions and individuals approach investing. That’s where Grayscale Investments comes in.</span>
+                    <span class="currency-info-subtitle txt-regular">We believe that digital currencies will revolutionize our legacy economic, political, and social systems. With that transformation comes a meaningful generational shift in how institutions and individuals approach investing. That’s where Reyna Ventures comes in.</span>
                     <div class="currency-info-additional">
                         <button class="currency-info-additional-btn txt-medium">Explore</button>
                         <button class="currency-info-additional-btn video txt-medium">
@@ -27,7 +27,7 @@ export const AboutReynaContent = () => {
                     <div class="currency-description-item-wrp">
                         <h2 class="currency-description-title txt-medium">Our Story</h2>
                         <p class="currency-description-txt txt-regular">
-                            As the digital currency market has emerged and evolved, Grayscale has grown alongside it, becoming the leading partner to investors as they navigate and deploy capital into this new asset class.
+                            As the digital currency market has emerged and evolved, Reyna has grown alongside it, becoming the leading partner to investors as they navigate and deploy capital into this new asset class.
                         </p>
                     </div>
                 </div>
@@ -35,45 +35,21 @@ export const AboutReynaContent = () => {
             <div class="currency-features">
                 <ul class="currency-features-list">
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">Invest in the Digital Economy
+                        <div class="currency-features-list-item-info-content">
+                            <h2 class="currency-features-list-item-title txt-medium">Our world is changing, it's becoming one digital and money as too
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                Blockchain technology and digital assets are radically transforming industries, creating the digital economy, and ultimately, building a digital-native world.
+                                At Reyna we are helping to invest in digital currencies, because of we believe that digital currencies break down borders. Democratise money and transform a broken infrastructure into a future for all. This is my digital currencies are heild as a greatest innovation since the advent of the internet and this is why our mission is to make digital currencies investing as simple and easy as possible. Reyna is the world's largest digital currency asset manager. Our team works everyday to build investment products that open up access to this asset pass. Since 2014 we've had creation transparent implement investment products. Investors, advisors  and institutions around the world trust Reyna Ventures as there digital assets manager of choice. We operate the largest Bitcoin and Ethereum investment funds in the world. We were first to bring a digital currency investment product to the public market and we'll be first to bring our investors important new investment opportunities as they emerge. It's time to go digital and it's time to go Reyna Ventures. 
                             </span>
-                        </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="invest-economy-item invest-economy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
                         </div>
                     </li>
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">Future-proof your portfolio
+                        <div class="currency-features-list-item-info-content">
+                            <h2 class="currency-features-list-item-title txt-medium">Disclaimer
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                Investors are searching for opportunities to future-proof their portfolios by investing in the digital economy and the companies, ideas, and technologies that underpin it.
+                                Reyna Ventures, LLC is a digital currency asset manager. Investments in the Products are speculative investments that involve high degrees of risk, including a partial or total loss of invested funds. Reyna Products are not suitable for any investor that cannot afford loss of the entire investment. The shares of each Product are intended to reflect the price of the digital asset(s) held by such Product (based on digital asset(s) per share), less such Product's expenses and other liabilities. Because each Product does not currently operate a redemption program, there can be no assurance that the value of such Product's shares will approximate the value of the assets held by such Product, less such Product's expenses and other liabilities, and the shares pf such Product, if traded on any secondary market, may trade at a substantial premium over, or substantial discount to, the value of the assets held by such Product, less such Product's expenses and other liabilities and such Products may be unable to meet their investment objectives. Go to our website <a href="https://reyna.ventures/">https://reyna.ventures/</a> for each Product's private placement memorandum and/or annual report, which includes investment objectives, risks, fees and expenses. Read these materials carefully before investing.
                             </span>
-                        </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="future-proof-item future-proof-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
-                        </div>
-                    </li>
-                    <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">Build a Financial Legacy
-                            </h2>
-                            <span class="currency-features-list-item-subtitle txt-regular">
-                                Reyna creates investments inspired by a digital future, so that investors can build stronger, more diversiﬁed, and lasting ﬁnancial legacies.
-                            </span>
-                        </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
                         </div>
                     </li>
                 </ul>

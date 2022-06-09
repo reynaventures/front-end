@@ -358,7 +358,7 @@ a {
             background-image: url(../imgs/1.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -370,7 +370,7 @@ a {
             background-image: url(../imgs/2.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -382,7 +382,7 @@ a {
             background-image: url(../imgs/3.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -394,7 +394,7 @@ a {
             background-image: url(../imgs/4.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -406,7 +406,7 @@ a {
             background-image: url(../imgs/5.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -418,7 +418,7 @@ a {
             background-image: url(../imgs/6.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -430,7 +430,7 @@ a {
             background-image: url(../imgs/7.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -442,7 +442,7 @@ a {
             background-image: url(../imgs/8.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -454,7 +454,7 @@ a {
             background-image: url(../imgs/9.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -465,6 +465,42 @@ a {
 }
 
 .wmyc {
+    &-mutation {
+        width: 100%;
+        height: 284px;
+        display: flex;
+        justify-content: space-between;
+
+        svg {
+            width: 200px;
+            margin: 0 40px;
+        }
+            
+        &-img1 {
+            background-image: url(../imgs/wmyc-m1.png);
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100%;
+        }
+
+        &-img2 {
+            background-image: url(../imgs/wayc-m0.png);
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100%;
+        }
+
+        &-img3 {
+            background-image: url(../imgs/wmyc-m2.png);
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100%;
+        }
+    }
+        
     &-benefits {
         &-item {
             width: 245px;
@@ -477,7 +513,7 @@ a {
             background-image: url(../imgs/m1.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -486,10 +522,10 @@ a {
         }
 
         &-img2 {
-            background-image: url(../imgs/m2.png);
+            background-image: url(../imgs/serum.gif);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -498,10 +534,10 @@ a {
         }
 
         &-img3 {
-            background-image: url(../imgs/m3.png);
+            background-image: url(../imgs/wmyc-bar.png);
             background-position: right;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
 
             & img {
                 width: 100%;
@@ -523,7 +559,7 @@ a {
 
         &-title {
             color: #333;
-            margin: 0 0 19px 0;
+            margin: 0 0 50px 0;
             line-height: 42px;
             max-width: 780px;
             font-size: 44px;
@@ -687,13 +723,19 @@ a {
                     flex-direction: column;
                 }
 
+                &-info-content {
+                    max-width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
+
                 &-title {
                     font-weight: 600;
                     // 
                     font-size: 23px;
                     letter-spacing: 0.3px;
                     color: #333;
-                    line-height: 3.3rem;
+                    line-height: 2.3rem;
                     margin: 0 0 17px 0;
                 }
 
@@ -1258,4 +1300,8 @@ a {
             width: 38vw;
         }
     }
+}
+
+.flex-direction {
+    flex-direction: column;
 }

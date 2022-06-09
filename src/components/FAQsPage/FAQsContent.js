@@ -23,129 +23,84 @@ export const FAQsContent = () => {
             <div class="currency-features">
                 <ul class="currency-features-list">
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">What is Grayscale?
+                        <div class="currency-features-list-item-info-content">
+                            <h2 class="currency-features-list-item-title txt-medium">What is Reyna?
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                Grayscale enables investors to access the digital economy through a family of secure, regulated, and future-forward investment products. Founded in 2013, Grayscale has a proven track record and unrivaled expertise as the world’s largest digital currency asset manager. Investors, advisors, and allocators turn to Grayscale’s private placements, public quotations, and ETFs for a single asset, diversified, and thematic exposure. Grayscale digital asset investment products are distributed by Genesis Global Trading, Inc. (Member FINRA/SIPC, MSRB Registered) or Foreside Fund Services, LLC. For more information, please follow @Grayscale or visit grayscale.com.
+                                Reyna enables investors to access the digital economy through a family of secure, regulated, and future-forward investment products. Founded in 2013, Reyna has a proven track record and unrivaled expertise as the world’s largest digital currency asset manager. Investors, advisors, and allocators turn to Reyna’s private placements, public quotations, and ETFs for a single asset, diversified, and thematic exposure. Reyna digital asset investment products are distributed by Genesis Global Trading, Inc. (Member FINRA/SIPC, MSRB Registered) or Foreside Fund Services, LLC. For more information, please follow @reynaventures or visit reyna.ventures.
                             </span>
-                        </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="invest-economy-item invest-economy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
                         </div>
                     </li>
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
+                        <div class="currency-features-list-item-info-content">
                             <h2 class="currency-features-list-item-title txt-medium">Why should I own shares of the Products over purchasing digital assets outright?
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                Buying and holding coins directly means you must set up a digital wallet where you buy and store your digital assets. Our Products offer investors an easy way to gain exposure to digital assets without the time and effort of storing and safekeeping it. Just as with certain other retail investments, investors may quickly and easily buy and sell shares of their investment versus the time it may require to manage coins directly. Certain Grayscale products may be accessed in brokerage accounts and in certain tax-advantaged accounts (e.g. IRAs, Self-Directed IRAs)
+                                Buying and holding coins directly means you must set up a digital wallet where you buy and store your digital assets. Our Products offer investors an easy way to gain exposure to digital assets without the time and effort of storing and safekeeping it. Just as with certain other retail investments, investors may quickly and easily buy and sell shares of their investment versus the time it may require to manage coins directly. Certain Reyna products may be accessed in brokerage accounts and in certain tax-advantaged accounts (e.g. IRAs, Self-Directed IRAs)
                             </span>
-                        </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="future-proof-item future-proof-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
                         </div>
                     </li>
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
+                        <div class="currency-features-list-item-info-content">
                             <h2 class="currency-features-list-item-title txt-medium">What are the Products' fees?
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
                                 Each Product charges an annual management fee, which includes the costs associated with administration and safekeeping. The fee is charged based on the total amount of tokens underlying the trust, and accrues daily. The ratio of digital asset(s) to shares will decay by this management fee over the course of a year.  We expect this fee to be the only ordinary recurring expense for each Product. There is no performance fee.  For further details on each Product’s fees, please review each Offered Product’s Private Placement Memorandum or each Product’s annual and quarterly reports, as applicable.
                             </span>
                         </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
-                        </div>
                     </li>
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
+                        <div class="currency-features-list-item-info-content">
                             <h2 class="currency-features-list-item-title txt-medium">How is each Product’s “Holdings” (non-GAAP) calculated?
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
                                 Each Product’s Holdings is calculated each business day at 4 p.m., New York time and subsequently published. The Product’s Holdings calculation is based on such Product’s applicable digital asset reference rate, taking into account the volume across the major digital asset exchanges that comprise such digital asset reference rate. For further details on how Holdings is calculated, please review each Offered Product’s Private Placement Memorandum or each Product’s annual and quarterly reports, as applicable. Each Product’s Holdings is calculated using non-GAAP methodology.
                             </span>
                         </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
-                        </div>
                     </li>
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
+                        <div class="currency-features-list-item-info-content">
                             <h2 class="currency-features-list-item-title txt-medium">Can I purchase shares of a Product in my retirement account?
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                Yes. It is possible that your IRA or retirement account provider may allow you to purchase shares in a Product. For additional information, please speak with your IRA provider . Please note that Grayscale does not and will not provide any advice or recommendation regarding investment in any Product and that you should consult your own advisers before making any decision to purchase shares in a Product.
+                                Yes. It is possible that your IRA or retirement account provider may allow you to purchase shares in a Product. For additional information, please speak with your IRA provider . Please note that Reyna does not and will not provide any advice or recommendation regarding investment in any Product and that you should consult your own advisers before making any decision to purchase shares in a Product.
                             </span>
-                        </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
                         </div>
                     </li>
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
+                        <div class="currency-features-list-item-info-content">
                             <h2 class="currency-features-list-item-title txt-medium">How are the digital assets underlying each Product’s shares safeguarded?
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
                                 Each Product’s assets are stored in offline storage, or “cold” storage, with Coinbase Custody Trust Company, LLC, as (the “Custodian”). The Custodian is a fiduciary under § 100 of the New York Banking Law and a qualified custodian for purposes of Rule 206(4)-2(d)(6) under the Investment Advisers Act of 1940, as amended. For more information about the Custodian, please visit their site.
                             </span>
                         </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
-                        </div>
                     </li>
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
+                        <div class="currency-features-list-item-info-content">
                             <h2 class="currency-features-list-item-title txt-medium">What are the risks of investing in a Product?
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                Investments in the Products are speculative investments that involve high degrees of risk, including loss of invested funds. Grayscale Products are not suitable for any investor that cannot afford loss of the entire investment. Carefully consider each Product’s investment objectives, risk factors, fees and expenses before investing. This and other information can be found in each Product’s private placement memorandum, which may be obtained from Grayscale and, for each Product registered with the SEC and/or listed on the OTC Markets, such Product’s annual report or information statement, which may be obtained by visiting the SEC’s website for Products that are SEC reporting or the OTC Markets website for Products that are quoted on OTC Markets. Reports on OTC Markets are not prepared in accordance with SEC requirements and may not contain all information that is useful for an informed investment decision. Read these documents carefully before investing.
+                                Investments in the Products are speculative investments that involve high degrees of risk, including loss of invested funds. Reyna Products are not suitable for any investor that cannot afford loss of the entire investment. Carefully consider each Product’s investment objectives, risk factors, fees and expenses before investing. This and other information can be found in each Product’s private placement memorandum, which may be obtained from Reyna and, for each Product registered with the SEC and/or listed on the OTC Markets, such Product’s annual report or information statement, which may be obtained by visiting the SEC’s website for Products that are SEC reporting or the OTC Markets website for Products that are quoted on OTC Markets. Reports on OTC Markets are not prepared in accordance with SEC requirements and may not contain all information that is useful for an informed investment decision. Read these documents carefully before investing.
                             </span>
-                        </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
                         </div>
                     </li>
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
+                        <div class="currency-features-list-item-info-content">
                             <h2 class="currency-features-list-item-title txt-medium">What are the benefits of adding digital currencies to my portfolio?
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
                                 Digital currencies possess many unique qualities. Because digital currencies are borderless, fungible, and accessible, they may be a great way to diversify your portfolio. Additionally, because of these unique qualities, digital currencies have historically been uncorrelated with other more traditional asset classes, such as stocks and bonds. In a market environment with geopolitical uncertainty and volatility, investors may benefit from a non-correlated asset class.
                             </span>
                         </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
-                        </div>
                     </li>
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
+                        <div class="currency-features-list-item-info-content">
                             <h2 class="currency-features-list-item-title txt-medium">Where can I find more information?
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                                For more information or follow-up questions, please contact us directly at info@grayscale.com.
+                                For more information or follow-up questions, please contact us directly at info@reyna.ventures.
                             </span>
-                        </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
                         </div>
                     </li>
                 </ul>

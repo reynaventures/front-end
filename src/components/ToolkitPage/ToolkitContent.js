@@ -4,8 +4,8 @@ export const ToolkitContent = () => {
             <section class="currency-info-wrp">
                 <div class="currency-info">
                     <h1 class="currency-info-title txt-bold">Digital Currency Investor Toolkit</h1>
-                    <span class="currency-info-subtitle txt-regular">As the world’s largest digital currency asset manager, Grayscale Investments is a trusted partner for investors and financial advisors who want to learn more about the asset class. Understanding that the digital currency market can be challenging to research, we’ve consolidated all the information you need to start within the Digital Currency Toolkit, now available for download.</span>
-                    <span class="currency-info-subtitle txt-regular">We know that digital currencies may not be a fit for everyone, but having an objective understanding of the asset class is increasingly important. As the market evolves, so will Grayscale’s resources. We are committed to providing you with the most up-to-date intelligence on this new asset class.</span>
+                    <span class="currency-info-subtitle txt-regular">As the world’s largest digital currency asset manager, Reyna Ventures is a trusted partner for investors and financial advisors who want to learn more about the asset class. Understanding that the digital currency market can be challenging to research, we’ve consolidated all the information you need to start within the Digital Currency Toolkit, now available for download.</span>
+                    <span class="currency-info-subtitle txt-regular">We know that digital currencies may not be a fit for everyone, but having an objective understanding of the asset class is increasingly important. As the market evolves, so will Reyna’s resources. We are committed to providing you with the most up-to-date intelligence on this new asset class.</span>
                     <div class="currency-info-additional">
                         <button class="currency-info-additional-btn txt-medium">Download Now</button>
                     </div>
@@ -27,17 +27,12 @@ export const ToolkitContent = () => {
             <div class="currency-features">
                 <ul class="currency-features-list">
                     <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
+                        <div class="currency-features-list-item-info-content">
                             <h2 class="currency-features-list-item-title txt-medium">Digital Economy
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
                                 As digital currencies transform our global financial infrastructure and challenge Modern Monetary Theory, we believe that they represent one of the most exciting investment opportunities of the 21st century.
                             </span>
-                        </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="invest-economy-item invest-economy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
                         </div>
                     </li>
                 </ul>
