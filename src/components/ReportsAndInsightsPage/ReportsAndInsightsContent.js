@@ -5,18 +5,6 @@ export const ReportsAndInsightContent = () => {
                 <div class="currency-info">
                     <h1 class="currency-info-title txt-bold">Reports & Insights</h1>
                     <span class="currency-info-subtitle txt-regular">The investment climate is changing, and investors need to create ﬁnancial legacies that will stand the test of time. As the largest digital currency asset manager, Reyna helps investors access the ever-evolving digital economy to build their future in the present.</span>
-                    <div class="currency-info-additional">
-                        <button class="currency-info-additional-btn txt-medium">Explore</button>
-                        <button class="currency-info-additional-btn video txt-medium">
-                            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3461 6.21377L2.99457 10.4275C2.03626 10.9768 0.814114 10.6453 0.264827 9.68695C0.0912987 9.3842 0 9.04133 0 8.69238L0 2C0 0.89543 0.89543 0 2 0C2.34895 0 2.69183 0.0912987 2.99457 0.264827L10.3461 4.4786C10.8253 4.75324 10.991 5.36432 10.7164 5.84347C10.6281 5.99761 10.5002 6.12543 10.3461 6.21377Z" transform="translate(1 1.81921)" stroke="#1aab9b" stroke-width="1.8" />
-                                <svg className='currency-info-additional-btn-mask' width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4596 6.28193L3.02742 10.5419C2.0586 11.0972 0.823043 10.762 0.267731 9.7932C0.0923001 9.48714 0 9.1405 0 8.78772L0 2.02194C0 0.905252 0.905252 0 2.02194 0C2.37471 0 2.72135 0.0923001 3.02742 0.267731L10.4596 4.52773C10.944 4.80538 11.1116 5.42316 10.834 5.90757C10.7446 6.0634 10.6154 6.19261 10.4596 6.28193Z" transform="translate(1 1)" fill="#10685e" stroke="#10685e" stroke-width="1.7" />
-                                </svg>
-                            </svg>
-                            Play video
-                        </button>
-                    </div>
                 </div>
             </section>
             <section class="currency-description-wrp">

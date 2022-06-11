@@ -24,10 +24,52 @@ export const BuildingBlocksContent = () => {
                 <ul class="currency-features-list">
                     <li class="currency-features-list-item">
                         <div class="currency-features-list-item-info">
+                            <h2 class="currency-features-list-item-title txt-medium">An Introduction to Bitcoin
+                            </h2>
+                            <span class="currency-features-list-item-subtitle txt-regular">
+                                Bitcoin is the first and arguably most successful decentralized digital currency in the world. Users can send or receive payments in bitcoin through a peer-to- peer (P2P) network, which is supported by its underlying blockchain protocol.
+                            </span>
+                        </div>
+                        <div class="currency-features-list-item-img">
+                            <div class="invest-economy-item invest-economy-img">
+                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
+                            </div>
+                        </div>
+                    </li>
+                    <li class="currency-features-list-item">
+                        <div class="currency-features-list-item-info">
+                            <h2 class="currency-features-list-item-title txt-medium">An Introduction to Ethereum
+                            </h2>
+                            <span class="currency-features-list-item-subtitle txt-regular">
+                                Ethereum is a global, open-source blockchain platform for decentralized applications (DApps), powered by smart contracts and embedded with a native digital currency, ether (ETH).
+                            </span>
+                        </div>
+                        <div class="currency-features-list-item-img">
+                            <div class="invest-economy-item invest-economy-img">
+                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
+                            </div>
+                        </div>
+                    </li>
+                    <li class="currency-features-list-item">
+                        <div class="currency-features-list-item-info">
                             <h2 class="currency-features-list-item-title txt-medium">An Introduction to Polygon
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
                                 Polygon believes in Web3 for all. Polygon is a decentralised Ethereum scaling platform that enables developers to build scalable user-friendly dApps with low transaction fees without ever sacrificing on security.
+                            </span>
+                        </div>
+                        <div class="currency-features-list-item-img">
+                            <div class="invest-economy-item invest-economy-img">
+                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
+                            </div>
+                        </div>
+                    </li>
+                    <li class="currency-features-list-item">
+                        <div class="currency-features-list-item-info">
+                            <h2 class="currency-features-list-item-title txt-medium">An Introduction to Decentraland
+                            </h2>
+                            <span class="currency-features-list-item-subtitle txt-regular">
+                                Decentraland is a blockchain-based virtual world that allows users to build their own tools, games, content, and markets, among other things. Land in Decentraland is owned by the community, giving them control over their creations.
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">

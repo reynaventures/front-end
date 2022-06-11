@@ -24,14 +24,14 @@ export const ContactContent = () => {
                 <ul class="currency-features-list">
                     <li class="currency-features-list-item">
                         <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">London
+                            <h2 class="currency-features-list-item-title txt-medium">Leeds
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                            3 Burlington Gardens<br/>
-                            London<br/>
-                            W1S 3EP<br/>
+                            10 Kingsmead Dr<br/>
+                            Leeds<br/>
+                            LS17 8NH<br/>
                             United Kingdom<br/><br/>
-                            +44 20 7154 2020
+                            uk@reyna.ventures
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
@@ -42,32 +42,14 @@ export const ContactContent = () => {
                     </li>
                     <li class="currency-features-list-item">
                         <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">London
+                            <h2 class="currency-features-list-item-title txt-medium">Mumbai
                             </h2>
                             <span class="currency-features-list-item-subtitle txt-regular">
-                            3 Burlington Gardens<br/>
-                            London<br/>
-                            W1S 3EP<br/>
-                            United Kingdom<br/><br/>
-                            +44 20 7154 2020
-                            </span>
-                        </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="invest-economy-item invest-economy-img">
-                                {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
-                            </div>
-                        </div>
-                    </li>
-                    <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">London
-                            </h2>
-                            <span class="currency-features-list-item-subtitle txt-regular">
-                            3 Burlington Gardens<br/>
-                            London<br/>
-                            W1S 3EP<br/>
-                            United Kingdom<br/><br/>
-                            +44 20 7154 2020
+                            C.S.T. Road, Kalina<br/>
+                            Mumbai City<br/>
+                            IN 400098<br/>
+                            India<br/><br/>
+                            in@reyna.ventures
                             </span>
                         </div>
                         <div class="currency-features-list-item-img">
