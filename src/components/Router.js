@@ -6,6 +6,7 @@ import { Contact } from "./ContactPage/Contact"
 import { Ecosystem } from "./EcosystemPage.js/Ecosystem"
 import { FAQs } from "./FAQsPage/FAQs"
 import { Home } from "./Home"
+import Markets from "./Markets"
 import { Press } from "./PressPage/Press"
 import { ReportsAndInsight } from "./ReportsAndInsightsPage/ReportsAndInsights"
 import { Toolkit } from "./ToolkitPage/Toolkit"
@@ -28,6 +29,8 @@ export const Router = () => {
                 <Route path="/wayc" element={<Wayc />} />
                 <Route path="/wmyc" element={<Wmyc />} />
                 <Route path="/all-products" element={<AllProducts />} />
+                {/* Egor routes */}
+                <Route path="/markets" element={<Markets />} />
                 <Route path="*" element={<Navigate replace to="/home" />} />
             </Routes>
         </HashRouter>

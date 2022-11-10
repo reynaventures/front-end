@@ -40,7 +40,7 @@ export const Header = () => {
                         <li class="navigation-list-item txt-regular">
                             <span class="navigation-list-item-txt" href="#">Investment Products</span>
                             <div className="navigation-list-item-menu">
-                                <Link to={"/"} class="navigation-list-item-menu-link">All Products</Link>
+                                <Link to={"/markets"} class="navigation-list-item-menu-link">Markets</Link>
                                 <a href="#" className="navigation-list-item-menu-link">Ecosystem</a>
                                 <a href="#" className="navigation-list-item-menu-link">Reyna® Polygon Trust</a>
                                 <a href="#" className="navigation-list-item-menu-link">Reyna® DeFi Fund</a>
