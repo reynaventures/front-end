@@ -20,26 +20,6 @@ const StyledMarkets = styled.div `
         font-size: 2.0rem;
         font-weight: bold;
     }
-    .market__connect-btn {
-        border-radius: 8px;
-        padding: 12px 24px;
-        border: 1px solid rgb(58, 120, 255);
-        box-shadow: none;
-        display: flex;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        justify-content: center;
-        color: rgb(255, 255, 255);
-        cursor: pointer;
-        background-color: rgb(58, 120, 255);
-        font-size: 20px;
-        font-weight: bold;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-        &:hover {
-            background-color: rgb(55, 95, 182);
-        }
-    }
     .market__total-money, .market__items {
         border-radius: 15px;
         color: rgb(255, 255, 255);
@@ -247,7 +227,7 @@ function Markets() {
             <div className='container'>
                 <div className="market__connect">
                     <h2 className="market__title">Markets</h2>
-                    <button className='market__connect-btn' type='button'>Connect wallet</button>
+                    <button className='market__connect-btn btn' type='button'>Connect wallet</button>
                 </div>
                 <div className="market__total-money">
                     <ul className="market__total-list">
