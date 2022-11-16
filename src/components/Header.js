@@ -13,10 +13,10 @@ export const Header = () => {
     }, [isMobileMenu])
 
     return (
-        <header class="header-wrp">
-            <div class="header">
-                <div class="header-item logo-wrp">
-                    <Link to={"/home"} class="header-item logo-link">
+        <header className="header-wrp">
+            <div className="header">
+                <div className="header-item logo-wrp">
+                    <Link to={"/home"} className="header-item logo-link">
                         <svg width="auto" height="40" viewBox="0 0 362 99" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M35.7936 44.2117H24.9892L16.306 28.5023H9.41239V44.2117H0V0H20.6807C25.2323 0 28.8337 1.32569 31.4851 3.97707C34.1807 6.62844 35.5285 10.0531 35.5285 14.2512C35.5285 17.8747 34.5784 20.8133 32.6782 23.067C30.8223 25.3207 28.5465 26.7568 25.8509 27.3755L35.7936 44.2117ZM19.2888 20.2168C21.2331 20.2168 22.8239 19.6865 24.0612 18.6259C25.2986 17.5212 25.9172 16.0629 25.9172 14.2512C25.9172 12.4394 25.2986 11.0032 24.0612 9.94267C22.8239 8.83792 21.2331 8.28555 19.2888 8.28555H9.41239V20.2168H19.2888Z" fill="black" />
                             <path d="M87.1361 44.2117H55.8498V0H87.1361V8.28555H65.2622V17.6317H86.6721V25.9172H65.2622V35.9262H87.1361V44.2117Z" fill="black" />
@@ -35,37 +35,28 @@ export const Header = () => {
                         </svg>
                     </Link>
                 </div>
-                <nav class="header-item navigation">
-                    <ul class="navigation-list">
-                        <li class="navigation-list-item txt-regular">
-                            <span class="navigation-list-item-txt" href="#">Investment Products</span>
+                <nav className="header-item navigation">
+                    <ul className="navigation-list">
+                        <li className="navigation-list-item txt-regular">
+                            <span className="navigation-list-item-txt" href="#">Investment Products</span>
                             <div className="navigation-list-item-menu">
-                                <Link to={"/markets"} class="navigation-list-item-menu-link">Markets</Link>
+                                <Link to={"/markets"} className="navigation-list-item-menu-link">Markets</Link>
                                 <a href="#" className="navigation-list-item-menu-link">Ecosystem</a>
                                 <a href="#" className="navigation-list-item-menu-link">Reyna® Polygon Trust</a>
                                 <a href="#" className="navigation-list-item-menu-link">Reyna® DeFi Fund</a>
                                 <a href="#" className="navigation-list-item-menu-link">Investor Deck</a>
                             </div>
                         </li>
-                        <li class="navigation-list-item txt-regular">
-                            <span class="navigation-list-item-txt" href="#">Metaverse</span>
-                            <div className="navigation-list-item-menu">
-                                <Link to={'/wayc'} className="navigation-list-item-menu-link">Weary Ape Yacht Club</Link>
-                                <Link to={'/wmyc'} className="navigation-list-item-menu-link">Weary Mutant Yacht Club</Link>
-                                <a href="#" className="navigation-list-item-menu-link">WearyVerse</a>
-                                <a href="https://snapshot.org/#/wearyapeyc.eth" target="_blank" className="navigation-list-item-menu-link">Vote</a>
-                            </div>
-                        </li>
-                        <li class="navigation-list-item txt-regular">
-                            <span class="navigation-list-item-txt" href="#">Learn</span>
+                        <li className="navigation-list-item txt-regular">
+                            <span className="navigation-list-item-txt" href="#">Learn</span>
                             <div className="navigation-list-item-menu">
                                 <Link to={'/toolkit'} className="navigation-list-item-menu-link">Digital Currency Toolkit</Link>
                                 <Link to={'/building-blocks'} className="navigation-list-item-menu-link">Building Blocks</Link>
                                 <Link to={'/reports-and-insights'} className="navigation-list-item-menu-link">Reports and Insights</Link>
                             </div>
                         </li>
-                        <li class="navigation-list-item txt-regular">
-                            <span class="navigation-list-item-txt" href="#">About</span>
+                        <li className="navigation-list-item txt-regular">
+                            <span className="navigation-list-item-txt" href="#">About</span>
                             <div className="navigation-list-item-menu">
                                 <Link to={'/about-reyna'} className="navigation-list-item-menu-link">About Reyna</Link>
                                 <a href="#" className="navigation-list-item-menu-link">Careers</a>
@@ -74,13 +65,13 @@ export const Header = () => {
                                 <Link to={'/FAQs'} className="navigation-list-item-menu-link">FAQs</Link>
                             </div>
                         </li>
-                        <li class="navigation-list-item txt-regular">
+                        <li className="navigation-list-item txt-regular">
                             <Link to={'/Contact'} className="navigation-list-item-link">Contact</Link>
                         </li>
                     </ul>
                 </nav>
-                <button onClick={() => { setIsMobileMenu(true) }} class="header-mobile-btn">
-                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#1040e2" /><path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" /></svg>
+                <button onClick={() => { setIsMobileMenu(true) }} className="header-mobile-btn">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd"><path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#1040e2" /><path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" /></svg>
                 </button>
             </div>
             {isMobileMenu && <MobileMenu closeMobileMenu={() => setIsMobileMenu(false)} />}

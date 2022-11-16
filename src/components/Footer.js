@@ -1,77 +1,77 @@
 export const Footer = () => {
     return (
-        <footer class="footer-wrp">
-            <div class="footer">
-                <div class="footer-navigation-wrp">
-                    <div class="footer-navigation txt-medium">
-                        <span class="footer-navigation-title">Companies</span>
-                        <ul class="footer-navigation-list">
-                            <li class="footer-navigation-list-item txt-regular">
+        <footer className="footer-wrp">
+            <div className="footer">
+                <div className="footer-navigation-wrp">
+                    <div className="footer-navigation txt-medium">
+                        <span className="footer-navigation-title">Companies</span>
+                        <ul className="footer-navigation-list">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">DeFi</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">NFTs</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">Games</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-navigation txt-medium">
-                        <span class="footer-navigation-title">Investment Products</span>
-                        <ul class="footer-navigation-list">
-                            <li class="footer-navigation-list-item txt-regular">
+                    <div className="footer-navigation txt-medium">
+                        <span className="footer-navigation-title">Investment Products</span>
+                        <ul className="footer-navigation-list">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">All Products</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">Reyna® Polygon Trust</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">Reyna® DeFi Fund</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">Investor Deck</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-navigation txt-medium">
-                        <span class="footer-navigation-title">Learn</span>
-                        <ul class="footer-navigation-list">
-                            <li class="footer-navigation-list-item txt-regular">
+                    <div className="footer-navigation txt-medium">
+                        <span className="footer-navigation-title">Learn</span>
+                        <ul className="footer-navigation-list">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">Digital Currency Toolkit</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">Building Blocks</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">Reports and Insights</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-navigation txt-medium">
-                        <span class="footer-navigation-title">About</span>
-                        <ul class="footer-navigation-list">
-                            <li class="footer-navigation-list-item txt-regular">
+                    <div className="footer-navigation txt-medium">
+                        <span className="footer-navigation-title">About</span>
+                        <ul className="footer-navigation-list">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">About Reyna</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">Careers</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">Press</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">Blog</a>
                             </li>
-                            <li class="footer-navigation-list-item txt-regular">
+                            <li className="footer-navigation-list-item txt-regular">
                                 <a href="#" target="_blank">FAQs</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-navigation social-media txt-medium">
-                        <span class="footer-navigation-title social-media">Social media</span>
-                        <ul class="footer-navigation-list social-media">
-                            <li class="footer-navigation-list-item social-media txt-regular">
+                    <div className="footer-navigation social-media txt-medium">
+                        <span className="footer-navigation-title social-media">Social media</span>
+                        <ul className="footer-navigation-list social-media">
+                            <li className="footer-navigation-list-item social-media txt-regular">
                                 <a href="https://twitter.com/reynaventures" target="_blank">
                                     <svg width="24" height="24" viewBox="0 0 24 24">
                                         <path
@@ -80,7 +80,7 @@ export const Footer = () => {
                                     </svg>
                                 </a>
                             </li>
-                            <li class="footer-navigation-list-item social-media txt-regular">
+                            <li className="footer-navigation-list-item social-media txt-regular">
                                 <a href="#" target="_blank">
                                     <svg width="24" height="24" viewBox="0 0 24 24">
                                         <path
@@ -89,7 +89,7 @@ export const Footer = () => {
                                     </svg>
                                 </a>
                             </li>
-                            <li class="footer-navigation-list-item social-media txt-regular">
+                            <li className="footer-navigation-list-item social-media txt-regular">
                                 <a href="https://t.me/reynaventures" target="_blank">
                                     <svg width="20" height="17" viewBox="0 0 20 17">
                                         <path
@@ -98,10 +98,10 @@ export const Footer = () => {
                                     </svg>
                                 </a>
                             </li>
-                            <li class="footer-navigation-list-item social-media txt-regular">
+                            <li className="footer-navigation-list-item social-media txt-regular">
                                 <a href="https://discord.gg/wearyapeyc" target="_blank">
                                     <svg version="1.0" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512"
-                                        enable-background="new 0 0 512 512" xmlSpace="preserve">
+                                        enableBackground="new 0 0 512 512" xmlSpace="preserve">
                                         <g>
                                             <path
                                                 d="M496.293,255.338c0-24.103-7.21-47.215-21.437-68.699c-12.771-19.288-30.666-36.362-53.184-50.745
@@ -123,7 +123,7 @@ export const Footer = () => {
                                     </svg>
                                 </a>
                             </li>
-                            <li class="footer-navigation-list-item social-media txt-regular">
+                            <li className="footer-navigation-list-item social-media txt-regular">
                                 <a href="#" target="_blank">
                                     <svg width="24" height="16" viewBox="0 0 24 16">
                                         <path

@@ -1,11 +1,13 @@
-import { Home } from './components/Home';
-import { Router } from './components/Router';
+import React from 'react';
+import { RootRouter } from './Routes/Router';
 import './styles/style.scss';
 
 function App() {
-  return (
-    <Router />
-  );
+    return (
+      <React.Fragment>
+        <RootRouter />
+      </React.Fragment>
+    );
 }
-// Мобильное меню, картинки, ошибки в консоли
+
 export default App;

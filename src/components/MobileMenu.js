@@ -4,7 +4,7 @@ export const MobileMenu = ({ closeMobileMenu }) => {
     return (
         <div className="mobileMenu">
             <div className="mobileMenu-logo-wrp">
-                <Link to={"/home"} class="header-item logo-link">
+                <Link to={"/home"} className="header-item logo-link">
                          <svg width="auto" height="40" viewBox="0 0 362 99" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M35.7936 44.2117H24.9892L16.306 28.5023H9.41239V44.2117H0V0H20.6807C25.2323 0 28.8337 1.32569 31.4851 3.97707C34.1807 6.62844 35.5285 10.0531 35.5285 14.2512C35.5285 17.8747 34.5784 20.8133 32.6782 23.067C30.8223 25.3207 28.5465 26.7568 25.8509 27.3755L35.7936 44.2117ZM19.2888 20.2168C21.2331 20.2168 22.8239 19.6865 24.0612 18.6259C25.2986 17.5212 25.9172 16.0629 25.9172 14.2512C25.9172 12.4394 25.2986 11.0032 24.0612 9.94267C22.8239 8.83792 21.2331 8.28555 19.2888 8.28555H9.41239V20.2168H19.2888Z" fill="black" />
                             <path d="M87.1361 44.2117H55.8498V0H87.1361V8.28555H65.2622V17.6317H86.6721V25.9172H65.2622V35.9262H87.1361V44.2117Z" fill="black" />
@@ -23,17 +23,17 @@ export const MobileMenu = ({ closeMobileMenu }) => {
                         </svg>
                 </Link>
                 <button onClick={closeMobileMenu} className="mobileMenu-cross">
-                    <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z" /></svg>
+                    <svg clipRule="evenodd" fillRule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z" /></svg>
                 </button>
             </div>
             <nav className="mobileMenu-navigation">
                 <ul className="mobileMenu-navigation-list">
                     <li className="mobileMenu-navigation-list-item txt-regular">
                         <input type="checkbox" id="mobile-investments" className="mobileMenu-navigation-list-item-checkbox" />
-                        <label htmlFor="mobile-investments" class="navigation-list-item-title-mobile-wrp">
+                        <label htmlFor="mobile-investments" className="navigation-list-item-title-mobile-wrp">
                             <span className="navigation-list-item-title mobile">Investment Products</span>
                             <svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M-1.38091e-05 -4.85498e-06L5.09999 5.77L-1.38091e-05 11.54" transform="translate(13.32 1) rotate(90)" stroke="#231536" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M-1.38091e-05 -4.85498e-06L5.09999 5.77L-1.38091e-05 11.54" transform="translate(13.32 1) rotate(90)" stroke="#231536" strokeWidth="1.7" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </label>
                         <ul className="mobileMenu-navigation-sublist">
@@ -56,18 +56,18 @@ export const MobileMenu = ({ closeMobileMenu }) => {
                     </li>
                     <li className="mobileMenu-navigation-list-item txt-regular">
                         <input type="checkbox" id="mobile-metaverse" className="mobileMenu-navigation-list-item-checkbox" />
-                        <label htmlFor="mobile-metaverse" class="navigation-list-item-title-mobile-wrp">
+                        <label htmlFor="mobile-metaverse" className="navigation-list-item-title-mobile-wrp">
                             <span className="navigation-list-item-title mobile">Metaverse</span>
                             <svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M-1.38091e-05 -4.85498e-06L5.09999 5.77L-1.38091e-05 11.54" transform="translate(13.32 1) rotate(90)" stroke="#231536" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M-1.38091e-05 -4.85498e-06L5.09999 5.77L-1.38091e-05 11.54" transform="translate(13.32 1) rotate(90)" stroke="#231536" strokeWidth="1.7" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </label>
                         <ul className="mobileMenu-navigation-sublist">
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
-                                <Link to={"/wayc"} class="mobileMenu-navigation-sublist-item-link">Weary Ape Yacht Club</Link>
+                                <Link to={"/wayc"} className="mobileMenu-navigation-sublist-item-link">Weary Ape Yacht Club</Link>
                             </li>
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
-                                <Link to={"/wmyc"} class="mobileMenu-navigation-sublist-item-link">Weary Mutant Yacht Club</Link>
+                                <Link to={"/wmyc"} className="mobileMenu-navigation-sublist-item-link">Weary Mutant Yacht Club</Link>
                             </li>
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
                                 <a href="#" className="mobileMenu-navigation-sublist-item-link">WearyVerse</a>
@@ -79,52 +79,52 @@ export const MobileMenu = ({ closeMobileMenu }) => {
                     </li>
                     <li className="mobileMenu-navigation-list-item txt-regular">
                         <input type="checkbox" id="mobile-learn" className="mobileMenu-navigation-list-item-checkbox" />
-                        <label htmlFor="mobile-learn" class="navigation-list-item-title-mobile-wrp">
+                        <label htmlFor="mobile-learn" className="navigation-list-item-title-mobile-wrp">
                             <span className="navigation-list-item-title mobile">Learn</span>
                             <svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M-1.38091e-05 -4.85498e-06L5.09999 5.77L-1.38091e-05 11.54" transform="translate(13.32 1) rotate(90)" stroke="#231536" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M-1.38091e-05 -4.85498e-06L5.09999 5.77L-1.38091e-05 11.54" transform="translate(13.32 1) rotate(90)" stroke="#231536" strokeWidth="1.7" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </label>
                         <ul className="mobileMenu-navigation-sublist">
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
-                                <Link to={"/toolkit"} class="mobileMenu-navigation-sublist-item-link">Digital Currency Toolkit</Link>
+                                <Link to={"/toolkit"} className="mobileMenu-navigation-sublist-item-link">Digital Currency Toolkit</Link>
                             </li>
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
-                                <Link to={"/building-blocks"} class="mobileMenu-navigation-sublist-item-link">Building Blocks</Link>
+                                <Link to={"/building-blocks"} className="mobileMenu-navigation-sublist-item-link">Building Blocks</Link>
                             </li>
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
-                                <Link to={"/reports-and-insights"} class="mobileMenu-navigation-sublist-item-link">Reports and Insights</Link>
+                                <Link to={"/reports-and-insights"} className="mobileMenu-navigation-sublist-item-link">Reports and Insights</Link>
                             </li>
                         </ul>
                     </li>
                     <li className="mobileMenu-navigation-list-item txt-regular">
                         <input type="checkbox" id="mobile-about" className="mobileMenu-navigation-list-item-checkbox" />
-                        <label htmlFor="mobile-about" class="navigation-list-item-title-mobile-wrp">
+                        <label htmlFor="mobile-about" className="navigation-list-item-title-mobile-wrp">
                             <span className="navigation-list-item-title mobile">About</span>
                             <svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M-1.38091e-05 -4.85498e-06L5.09999 5.77L-1.38091e-05 11.54" transform="translate(13.32 1) rotate(90)" stroke="#231536" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M-1.38091e-05 -4.85498e-06L5.09999 5.77L-1.38091e-05 11.54" transform="translate(13.32 1) rotate(90)" stroke="#231536" strokeWidth="1.7" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </label>
                         <ul className="mobileMenu-navigation-sublist">
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
-                                <Link to={"/about-reyna"} class="mobileMenu-navigation-sublist-item-link">About Reyna</Link>
+                                <Link to={"/about-reyna"} className="mobileMenu-navigation-sublist-item-link">About Reyna</Link>
                             </li>
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
                                 <a href="#" className="mobileMenu-navigation-sublist-item-link">Careers</a>
                             </li>
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
-                                <Link to={"/press"} class="mobileMenu-navigation-sublist-item-link">Press</Link>
+                                <Link to={"/press"} className="mobileMenu-navigation-sublist-item-link">Press</Link>
                             </li>
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
                                 <a href="https://medium.com/@reynaventures" target="_blank" className="mobileMenu-navigation-sublist-item-link">Blog</a>
                             </li>
                             <li className="mobileMenu-navigation-sublist-item txt-regular">
-                                <Link to={"/FAQs"} class="mobileMenu-navigation-sublist-item-link">FAQs</Link>
+                                <Link to={"/FAQs"} className="mobileMenu-navigation-sublist-item-link">FAQs</Link>
                             </li>
                         </ul>
                     </li>
                     <li className="mobileMenu-navigation-list-item txt-regular">
-                        <Link to={"/Contact"} class="navigation-list-item-link mobile">Contact</Link>
+                        <Link to={"/Contact"} className="navigation-list-item-link mobile">Contact</Link>
                     </li>
                 </ul>
             </nav>

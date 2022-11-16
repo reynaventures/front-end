@@ -1,20 +1,20 @@
-import currencyFeature from '../imgs/currency-feature-img.png'
+import currencyFeature from '../assets/imgs/currency-feature-img.png'
 
 
 export const HomeContent = () => {
     return (
-        <main class="content">
-            <section class="currency-info-wrp">
-                <div class="currency-info">
-                    <h1 class="currency-info-title txt-bold">A digital-native asset manager, for a digital-driven world.</h1>
-                    <span class="currency-info-subtitle txt-regular">The investment climate is changing, and investors need to create ﬁnancial legacies that will stand the test of time. As the largest digital currency asset manager, Reyna helps investors access the ever-evolving digital economy to build their future in the present.</span>
-                    <div class="currency-info-additional">
-                        <button class="currency-info-additional-btn txt-medium">Explore</button>
-                        <button class="currency-info-additional-btn video txt-medium">
+        <main className="content">
+            <section className="currency-info-wrp">
+                <div className="currency-info">
+                    <h1 className="currency-info-title txt-bold">A digital-native asset manager, for a digital-driven world.</h1>
+                    <span className="currency-info-subtitle txt-regular">The investment climate is changing, and investors need to create ﬁnancial legacies that will stand the test of time. As the largest digital currency asset manager, Reyna helps investors access the ever-evolving digital economy to build their future in the present.</span>
+                    <div className="currency-info-additional">
+                        <button className="currency-info-additional-btn txt-medium">Explore</button>
+                        <button className="currency-info-additional-btn video txt-medium">
                             <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3461 6.21377L2.99457 10.4275C2.03626 10.9768 0.814114 10.6453 0.264827 9.68695C0.0912987 9.3842 0 9.04133 0 8.69238L0 2C0 0.89543 0.89543 0 2 0C2.34895 0 2.69183 0.0912987 2.99457 0.264827L10.3461 4.4786C10.8253 4.75324 10.991 5.36432 10.7164 5.84347C10.6281 5.99761 10.5002 6.12543 10.3461 6.21377Z" transform="translate(1 1.81921)" stroke="#1aab9b" stroke-width="1.8" />
+                                <path fillRule="evenodd" clipRule="evenodd" d="M10.3461 6.21377L2.99457 10.4275C2.03626 10.9768 0.814114 10.6453 0.264827 9.68695C0.0912987 9.3842 0 9.04133 0 8.69238L0 2C0 0.89543 0.89543 0 2 0C2.34895 0 2.69183 0.0912987 2.99457 0.264827L10.3461 4.4786C10.8253 4.75324 10.991 5.36432 10.7164 5.84347C10.6281 5.99761 10.5002 6.12543 10.3461 6.21377Z" transform="translate(1 1.81921)" stroke="#1aab9b" strokeWidth="1.8" />
                                 <svg className='currency-info-additional-btn-mask' width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.4596 6.28193L3.02742 10.5419C2.0586 11.0972 0.823043 10.762 0.267731 9.7932C0.0923001 9.48714 0 9.1405 0 8.78772L0 2.02194C0 0.905252 0.905252 0 2.02194 0C2.37471 0 2.72135 0.0923001 3.02742 0.267731L10.4596 4.52773C10.944 4.80538 11.1116 5.42316 10.834 5.90757C10.7446 6.0634 10.6154 6.19261 10.4596 6.28193Z" transform="translate(1 1)" fill="#10685e" stroke="#10685e" stroke-width="1.7" />
+                                    <path fillRule="evenodd" clipRule="evenodd" d="M10.4596 6.28193L3.02742 10.5419C2.0586 11.0972 0.823043 10.762 0.267731 9.7932C0.0923001 9.48714 0 9.1405 0 8.78772L0 2.02194C0 0.905252 0.905252 0 2.02194 0C2.37471 0 2.72135 0.0923001 3.02742 0.267731L10.4596 4.52773C10.944 4.80538 11.1116 5.42316 10.834 5.90757C10.7446 6.0634 10.6154 6.19261 10.4596 6.28193Z" transform="translate(1 1)" fill="#10685e" stroke="#10685e" strokeWidth="1.7" />
                                 </svg>
                             </svg>
                             Play video
@@ -22,75 +22,75 @@ export const HomeContent = () => {
                     </div>
                 </div>
             </section>
-            <section class="currency-description-wrp">
-                <div class="currency-description-item currency-description-img">
+            <section className="currency-description-wrp">
+                <div className="currency-description-item currency-description-img">
                     {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                 </div>
-                <div class="currency-description-item currency-description">
-                    <div class="currency-description-item-wrp">
-                        <h2 class="currency-description-title txt-medium">What is $REIN</h2>
-                        <p class="currency-description-txt txt-regular">
+                <div className="currency-description-item currency-description">
+                    <div className="currency-description-item-wrp">
+                        <h2 className="currency-description-title txt-medium">What is $REIN</h2>
+                        <p className="currency-description-txt txt-regular">
                             $REIN, governed by the Reyna Ventures, is Web3’s decentralized reserve currency. $REIN purpose is to provide the growing Web3 financial ecosystem with a censorship-resistant currency that preserves purchasing power, has deep liquidity, is trusted and used widely as a unit of account.
                         </p>
                     </div>
                 </div>
             </section>
-            <div class="currency-features">
-                <ul class="currency-features-list">
-                    <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">Invest in the Digital Economy
+            <div className="currency-features">
+                <ul className="currency-features-list">
+                    <li className="currency-features-list-item">
+                        <div className="currency-features-list-item-info">
+                            <h2 className="currency-features-list-item-title txt-medium">Invest in the Digital Economy
                             </h2>
-                            <span class="currency-features-list-item-subtitle txt-regular">
+                            <span className="currency-features-list-item-subtitle txt-regular">
                                 Blockchain technology and digital assets are radically transforming industries, creating the digital economy, and ultimately, building a digital-native world.
                             </span>
                         </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="invest-economy-item invest-economy-img">
+                        <div className="currency-features-list-item-img">
+                            <div className="invest-economy-item invest-economy-img">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
                     </li>
-                    <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">Future-proof your portfolio
+                    <li className="currency-features-list-item">
+                        <div className="currency-features-list-item-info">
+                            <h2 className="currency-features-list-item-title txt-medium">Future-proof your portfolio
                             </h2>
-                            <span class="currency-features-list-item-subtitle txt-regular">
+                            <span className="currency-features-list-item-subtitle txt-regular">
                                 Investors are searching for opportunities to future-proof their portfolios by investing in the digital economy and the companies, ideas, and technologies that underpin it.
                             </span>
                         </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="future-proof-item future-proof-img">
+                        <div className="currency-features-list-item-img">
+                            <div className="future-proof-item future-proof-img">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
                     </li>
-                    <li class="currency-features-list-item">
-                        <div class="currency-features-list-item-info">
-                            <h2 class="currency-features-list-item-title txt-medium">Build a Financial Legacy
+                    <li className="currency-features-list-item">
+                        <div className="currency-features-list-item-info">
+                            <h2 className="currency-features-list-item-title txt-medium">Build a Financial Legacy
                             </h2>
-                            <span class="currency-features-list-item-subtitle txt-regular">
+                            <span className="currency-features-list-item-subtitle txt-regular">
                                 Reyna creates investments inspired by a digital future, so that investors can build stronger, more diversiﬁed, and lasting ﬁnancial legacies.
                             </span>
                         </div>
-                        <div class="currency-features-list-item-img">
-                            <div class="build-legacy-item build-legacy-img">
+                        <div className="currency-features-list-item-img">
+                            <div className="build-legacy-item build-legacy-img">
                                 {/* <img src="img/currency-description-img.JPG" alt="currency" /> */}
                             </div>
                         </div>
                     </li>
                 </ul>
             </div>
-            <section class="community-wrp">
-                <div class="community">
-                    <h4 class="community-title txt-medium">Join the community</h4>
-                    <p class="community-subtitle txt-regular">
+            <section className="community-wrp">
+                <div className="community">
+                    <h4 className="community-title txt-medium">Join the community</h4>
+                    <p className="community-subtitle txt-regular">
                         Learn more about Reyna, chat with the team, others in the community, and have your say in shaping
                         the future of decentralized finance.
                     </p>
-                    <div class="community-social">
-                        <a href="https://discord.gg/wearyapeyc" target="_blank" class="community-social-link txt-medium">
-                            <div class="community-social-link-img">
+                    <div className="community-social">
+                        <a href="https://discord.gg/wearyapeyc" target="_blank" className="community-social-link txt-medium">
+                            <div className="community-social-link-img">
                                 <svg width="25" height="21" viewBox="0 0 25 21" fill="none">
                                     <path
                                         d="M24.8717 10.4833C24.8717 9.24399 24.4981 8.0556 23.7609 6.95092C23.0992 5.95916 22.1719 5.08124 21.0051 4.34168C18.7525 2.91373 15.7918 2.12734 12.6687 2.12734C11.6256 2.12734 10.5974 2.21485 9.60009 2.38813C8.98131 1.81348 8.25708 1.29636 7.49056 0.887375C3.39576 -1.08186 0 0.841099 0 0.841099C0 0.841099 3.1572 3.41476 2.6438 5.67086C1.23135 7.06127 0.465825 8.73777 0.465825 10.4833C0.465825 10.4889 0.466084 10.4944 0.466136 10.5C0.466084 10.5055 0.465825 10.5111 0.465825 10.5167C0.465825 12.2623 1.23135 13.9388 2.6438 15.3292C3.15715 17.5851 0 20.1589 0 20.1589C0 20.1589 3.39576 22.0818 7.49056 20.1126C8.25702 19.7037 8.98131 19.1866 9.60009 18.6118C10.5975 18.7852 11.6256 18.8726 12.6687 18.8726C15.7918 18.8726 18.7525 18.0862 21.0051 16.6583C22.1719 15.9188 23.0991 15.0408 23.7609 14.0492C24.4981 12.9444 24.8717 11.756 24.8717 10.5167C24.8717 10.5112 24.8714 10.5055 24.8714 10.5C24.8714 10.4944 24.8717 10.4889 24.8717 10.4833ZM12.6737 17.2925C11.3592 17.2925 10.1005 17.1417 8.93737 16.8666C7.75545 18.2777 5.15517 20.2395 2.62919 19.6052C3.45084 18.7295 4.66825 17.2497 4.40752 14.8126C2.89356 13.6434 1.98465 12.1474 1.98465 10.517C1.98465 6.77497 6.77037 3.74163 12.6737 3.74163C18.5769 3.74163 23.3627 6.77497 23.3627 10.517C23.3627 14.2589 18.5769 17.2925 12.6737 17.2925ZM14.0935 10.5169C14.0935 11.295 13.4577 11.9259 12.6737 11.9259C11.8895 11.9259 11.2539 11.295 11.2539 10.5169C11.2539 9.73884 11.8895 9.10799 12.6737 9.10799C13.4577 9.10799 14.0935 9.73879 14.0935 10.5169ZM17.6107 9.10799C16.8266 9.10799 16.191 9.73879 16.191 10.5169C16.191 11.295 16.8267 11.9259 17.6107 11.9259C18.3949 11.9259 19.0304 11.295 19.0304 10.5169C19.0304 9.73884 18.3949 9.10799 17.6107 9.10799ZM7.73658 9.10799C6.95245 9.10799 6.31683 9.73879 6.31683 10.5169C6.31683 11.295 6.95251 11.9259 7.73658 11.9259C8.52077 11.9259 9.15639 11.295 9.15639 10.5169C9.15639 9.73884 8.52077 9.10799 7.73658 9.10799Z"
@@ -99,10 +99,10 @@ export const HomeContent = () => {
                             </div>
                             Chat
                         </a>
-                        <a href="#" class="community-social-link txt-medium">
-                            <div class="community-social-link-img">
+                        <a href="#" className="community-social-link txt-medium">
+                            <div className="community-social-link-img">
                                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
-                                    <g clip-path="url(#clip0_forum)">
+                                    <g clipPath="url(#clip0_forum)">
                                         <path
                                             d="M12.0797 0.23288C5.52169 0.23288 0 5.54964 0 12.11C0 12.3219 0 24.4086 0 24.4086L12.0774 24.397C18.6354 24.397 23.9545 18.8753 23.9545 12.3173C23.9545 5.75923 18.6308 0.23288 12.0797 0.23288Z"
                                             fill="#231F20"></path>
@@ -131,8 +131,8 @@ export const HomeContent = () => {
                             </div>
                             Forum
                         </a>
-                        <a href="https://twitter.com/reynaventures" target="_blank" class="community-social-link txt-medium">
-                            <div class="community-social-link-img">
+                        <a href="https://twitter.com/reynaventures" target="_blank" className="community-social-link txt-medium">
+                            <div className="community-social-link-img">
                                 <svg width="23" height="19" viewBox="0 0 23 19" fill="none">
                                     <path
                                         d="M11.1343 5.0543L11.184 5.8761L10.3556 5.77547C7.34004 5.38973 4.70558 4.08155 2.46877 1.88448L1.37522 0.794336L1.09355 1.59937C0.497068 3.39392 0.878153 5.2891 2.12082 6.56373C2.78358 7.26814 2.63446 7.36876 1.4912 6.94948C1.09355 6.81531 0.745602 6.71468 0.712464 6.76499C0.596482 6.88239 0.994136 8.4086 1.30895 9.01237C1.73974 9.85095 2.61789 10.6728 3.57889 11.1591L4.39077 11.5449L3.42977 11.5616C2.50191 11.5616 2.46877 11.5784 2.56818 11.9306C2.89956 13.0208 4.20851 14.178 5.66657 14.6811L6.69385 15.0333L5.79913 15.57C4.47361 16.3415 2.91613 16.7776 1.35865 16.8111C0.613051 16.8279 0 16.895 0 16.9453C0 17.113 2.02141 18.0522 3.1978 18.4212C6.72699 19.5113 10.9189 19.0417 14.067 17.1801C16.3038 15.8551 18.5406 13.222 19.5845 10.6727C20.1478 9.31426 20.7112 6.83208 20.7112 5.6413C20.7112 4.86981 20.7609 4.76918 21.6887 3.84675C22.2355 3.31006 22.7491 2.72306 22.8486 2.55534C23.0142 2.23669 22.9977 2.23669 22.1527 2.5218C20.7443 3.02495 20.5455 2.95786 21.2414 2.20314C21.755 1.66645 22.3681 0.693707 22.3681 0.408592C22.3681 0.358277 22.1195 0.442135 21.8379 0.593078C21.5396 0.760793 20.8769 1.01237 20.3798 1.16331L19.4851 1.44842L18.6732 0.894965C18.2258 0.593078 17.5962 0.257648 17.2648 0.157019C16.4198 -0.077782 15.1274 -0.044239 14.3653 0.224105C12.2941 0.978823 10.9852 2.92432 11.1343 5.0543Z"
@@ -141,8 +141,8 @@ export const HomeContent = () => {
                             </div>
                             Twitter
                         </a>
-                        <a href="https://telegram.com/reynaventures" target="_blank" class="community-social-link txt-medium">
-                            <div class="community-social-link-img">
+                        <a href="https://telegram.com/reynaventures" target="_blank" className="community-social-link txt-medium">
+                            <div className="community-social-link-img">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                                     <path
                                         d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z"
@@ -157,21 +157,21 @@ export const HomeContent = () => {
                                     <defs>
                                         <linearGradient id="paint0_linear_telegram" x1="16.008" y1="4.008" x2="10.008"
                                             y2="18" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#37AEE2"></stop>
-                                            <stop offset="1" stop-color="#1E96C8"></stop>
+                                            <stop stopColor="#37AEE2"></stop>
+                                            <stop offset="1" stopColor="#1E96C8"></stop>
                                         </linearGradient>
                                         <linearGradient id="paint1_linear_telegram" x1="13.5044" y1="12.0009" x2="15.3771"
                                             y2="16.2678" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#EFF7FC"></stop>
-                                            <stop offset="1" stop-color="white"></stop>
+                                            <stop stopColor="#EFF7FC"></stop>
+                                            <stop offset="1" stopColor="white"></stop>
                                         </linearGradient>
                                     </defs>
                                 </svg>
                             </div>
                             Telegram
                         </a>
-                        <a href="https://github.com/reynaventures" target="_blank" class="community-social-link txt-medium">
-                            <div class="community-social-link-img">
+                        <a href="https://github.com/reynaventures" target="_blank" className="community-social-link txt-medium">
+                            <div className="community-social-link-img">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                     <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                                 </svg>
