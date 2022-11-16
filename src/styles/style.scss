@@ -7,30 +7,30 @@
 
 @font-face {
     font-family: "Euclid Square";
-    src: url(../fonts/EuclidSquare-Regular.woff2) format("woff2"),
-        url(../fonts/EuclidSquare-Regular.woff) format("woff"),
-        url(../fonts/EuclidSquare-Regular.ttf) format("ttf"),
-        url(../fonts/EuclidSquare-Regular.eot) format("eot");
+    src: url(../assets/fonts/EuclidSquare-Regular.woff2) format("woff2"),
+        url(../assets/fonts/EuclidSquare-Regular.woff) format("woff"),
+        url(../assets/fonts/EuclidSquare-Regular.ttf) format("ttf"),
+        url(../assets/fonts/EuclidSquare-Regular.eot) format("eot");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Euclid Square";
-    src: url(../fonts/EuclidSquare-Medium.woff2) format("woff2"),
-        url(../fonts/EuclidSquare-Medium.woff) format("woff"),
-        url(../fonts/EuclidSquare-Medium.ttf) format("ttf"),
-        url(../fonts/EuclidSquare-Medium.eot) format("eot");
+    src: url(../assets/fonts/EuclidSquare-Medium.woff2) format("woff2"),
+        url(../assets/fonts/EuclidSquare-Medium.woff) format("woff"),
+        url(../assets/fonts/EuclidSquare-Medium.ttf) format("ttf"),
+        url(../assets/fonts/EuclidSquare-Medium.eot) format("eot");
     font-style: normal;
     font-weight: 500;
 }
 
 @font-face {
     font-family: "Euclid Square";
-    src: url(../fonts/EuclidSquare-Bold.woff2) format("woff2"),
-        url(../fonts/EuclidSquare-Bold.woff) format("woff"),
-        url(../fonts/EuclidSquare-Bold.ttf) format("ttf"),
-        url(../fonts/EuclidSquare-Bold.eot) format("eot");
+    src: url(../assets/fonts/EuclidSquare-Bold.woff2) format("woff2"),
+        url(../assets/fonts/EuclidSquare-Bold.woff) format("woff"),
+        url(../assets/fonts/EuclidSquare-Bold.ttf) format("ttf"),
+        url(../assets/fonts/EuclidSquare-Bold.eot) format("eot");
     font-style: normal;
     font-weight: 700;
 }
@@ -312,7 +312,7 @@ a {
         }
 
         &-img {
-            background-image: url(../imgs/invest-economy-img.png);
+            background-image: url(../assets/imgs/invest-economy-img.png);
             background-position: right;
             background-repeat: no-repeat;
             background-size: cover;
@@ -335,7 +335,7 @@ a {
         }
 
         &-img {
-            background-image: url(../imgs/future-proof-img.png);
+            background-image: url(../assets/imgs/future-proof-img.png);
             background-position: right;
             background-repeat: no-repeat;
             background-size: cover;
@@ -358,7 +358,7 @@ a {
         }
 
         &-img {
-            background-image: url(../imgs/build-legacy-img.png);
+            background-image: url(../assets/imgs/build-legacy-img.png);
             background-position: right;
             background-repeat: no-repeat;
             background-size: cover;
@@ -478,7 +478,7 @@ a {
         }
 
         &-img {
-            background-image: url(../imgs/what-is-rein.png);
+            background-image: url(../assets/imgs/what-is-rein.png);
             background-position: right;
             background-repeat: no-repeat;
             background-size: cover;
@@ -490,7 +490,7 @@ a {
         }
 
         &-img-wayc {
-            background-image: url(../imgs/beyond-time-n-space.png);
+            background-image: url(../assets/imgs/beyond-time-n-space.png);
             background-position: right;
             background-repeat: no-repeat;
             background-size: cover;
@@ -502,7 +502,7 @@ a {
         }
 
         &-img-wmyc {
-            background-image: url(../imgs/wmyc.png);
+            background-image: url(../assets/imgs/wmyc.png);
             background-position: right;
             background-repeat: no-repeat;
             background-size: cover;
