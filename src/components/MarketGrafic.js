@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { FaSort } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
+import { PATH } from '../constans/routes';
 
 const StyledMarketGrafic = styled.div `
     .market__items {
@@ -98,6 +100,7 @@ const StyledMarketGrafic = styled.div `
 `
 
 function MarketGrafic() {
+    const navigate = useNavigate();
     return (
         <StyledMarketGrafic>
             <div className="market__items">
@@ -132,7 +135,7 @@ function MarketGrafic() {
                             <img src="#" alt="" />
                             <p className="market__cript-name">Eitny</p>
                         </div>
-                        <ul className="market__items-list">
+                        <ul className="market__items-list" onClick={() => navigate(PATH.marketEitny)}>
                             <li className="market__items-item market__items-item-preview">
                                 <img src="#" alt="" />
                                 <p className="market__cript-name">Eitny</p>

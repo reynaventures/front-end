@@ -9,8 +9,9 @@ import { AboutReynaContent } from '../Scenes/AboutReynaContent';
 import { PressContent } from '../Scenes/PressContent';
 import { FAQsContent } from '../Scenes/FAQsContent';
 import { ContactContent } from '../Scenes/ContactContent';
-import MainLayout from "../Layouts/MainLayout"
-import { ROUTES } from "../constans/routes"
+import MainLayout from "../Layouts/MainLayout";
+import MarketItem from '../Scenes/MarketItem';
+import { ROUTES } from "../constans/routes";
 
 export const RootRouter = () => {
     return (
@@ -45,6 +46,9 @@ export const RootRouter = () => {
                 </Route>
                 <Route path={ROUTES.markets} element={<MainLayout/>}>
                     <Route path={ROUTES.markets} element={<Markets />} />
+                </Route>
+                <Route path={ROUTES.marketEitny} element={<MainLayout/>}>
+                    <Route path={ROUTES.marketEitny} element={<MarketItem />} />
                 </Route>
                 <Route path="*" element={<Navigate replace to="/home" />} />
             </Routes>

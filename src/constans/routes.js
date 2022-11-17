@@ -9,6 +9,7 @@ export const ROUTES = {
     FAQ: '/FAQs',
     contact: '/contact',
     markets: '/markets',
+    marketEitny: '/markets/eitny',
 }
 
 export const PATH = {
@@ -22,4 +23,5 @@ export const PATH = {
     FAQ: '/FAQs',
     contact: '/contact',
     markets: '/markets',
+    marketEitny: '/markets/eitny',
 }

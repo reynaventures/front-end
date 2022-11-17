@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 import MarketGrafic from '../components/MarketGrafic';
 import MetamaskWallet from '../components/MetamaskWallet';
@@ -74,6 +75,12 @@ const StyledMarkets = styled.div `
             background-color: rgb(58, 120, 255);
         }
     }
+    .market__wallet-error {
+        color: #9e2020;
+        font-size: 11px;
+        font-weight: bold;
+        margin: 5px 0;
+    }
 
     @media only screen and (max-width: 1440px) {
         .market__total-list {
@@ -148,18 +155,21 @@ function Markets() {
     const [errorMessage, setErrorMessage] = useState(null);
 	const [defaultAccount, setDefaultAccount] = useState(null);
     const [handleLogout, setHandleLogout] = useState(false);
+    const dispatch = useDispatch();
 
 	const connectWalletHandler = () => {
-        setHandleLogout(true);
+        if(defaultAccount !== null) {
+            setHandleLogout(true);
+        }
 		if (window.ethereum && window.ethereum.isMetaMask) {
 			window.ethereum.request({ method: 'eth_requestAccounts'})
 			.then(result => {
 				accountChangedHandler(result[0].substring(0, 7) + '...');
+                dispatch({type: `metamaskThere`, payload: {name: result[0]}});
 			})
 			.catch(error => {
 				setErrorMessage(error.message);
 			});
-
 		} else {
 			setErrorMessage('Please install MetaMask browser extension to interact');
 		}
@@ -191,8 +201,8 @@ function Markets() {
                             : 
                             'Connect wallet'}
                     </button>
-                    {errorMessage}
                 </div>
+                <p className='market__wallet-error'>{errorMessage}</p>
                 <div className="market__total-money">
                     <ul className="market__total-list">
                         <li className="market__total-item">
@@ -214,7 +224,7 @@ function Markets() {
                     </ul>
                 </div>
                 <MarketGrafic/>
-                {(defaultAccount !== null && handleLogout) && <MetamaskWallet setHandleLogout={setHandleLogout}/>}
+                {(defaultAccount !== null && handleLogout) && <MetamaskWallet setHandleLogout={setHandleLogout} setDefaultAccount={setDefaultAccount}/>}
             </div>
         </StyledMarkets>
     )
