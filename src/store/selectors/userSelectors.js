@@ -1,0 +1,1 @@
+export const walletName = state => state.user.wallet;

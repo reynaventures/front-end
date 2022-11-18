@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { AiFillCopy } from 'react-icons/ai';
+import { AiOutlineCopy } from 'react-icons/ai';
 import MetaMaskFox from '../assets/imgs/MetaMaskFox.png';
-import { useSelector } from 'react-redux';
-import { metamaskWalletName } from '../store/selectors/metamaskSelectors';
+import { useDispatch, useSelector } from 'react-redux';
+import { walletName } from '../store/selectors/userSelectors';
 
 const StyledMetaMaskWallet = styled.div `
     position: fixed;
@@ -44,7 +44,7 @@ const StyledMetaMaskWallet = styled.div `
         margin-bottom: 60px;
     }
     .wallet__wrap {
-        padding: 20px 25px;
+        padding: 20px 45px;
     }
     .wallet__btn {
         width: 100%;
@@ -59,7 +59,7 @@ const StyledMetaMaskWallet = styled.div `
     .wallet__img {
         width: 50px;
         height: 50px;
-        margin-right: 5px;
+        margin-right: 15px;
     }
     .wallet__name {
         font-size: 1rem;
@@ -97,8 +97,9 @@ const StyledMetaMaskWallet = styled.div `
     }
 `
 
-function MetamaskWallet({ setHandleLogout, setDefaultAccount }) {
-    const metamaskName = useSelector(metamaskWalletName);
+function MetamaskWallet({ setHandleLogout }) {
+    const metamaskName = useSelector(walletName);
+    const dispatch = useDispatch();
     return (
         <StyledMetaMaskWallet onClick={() => setHandleLogout(false)}>
             <div className="wallet" onClick={e => e.stopPropagation()}>
@@ -109,10 +110,10 @@ function MetamaskWallet({ setHandleLogout, setDefaultAccount }) {
                     <img src={MetaMaskFox} alt="" className="wallet__img" />
                     <div className="wallet__metamask-main">
                         <p className="wallet__name">MetaMask</p>
-                        <p className="wallet__num">{metamaskName} <AiFillCopy className='wallet__num-copy'/></p>
+                        <p className="wallet__num">{metamaskName} <AiOutlineCopy className='wallet__num-copy'/></p>
                     </div>
                     </div>
-                    <button className='wallet__btn btn' type='button' onClick={() => setDefaultAccount(null)}>Log out</button>
+                    <button className='wallet__btn btn' type='button' onClick={() => dispatch({type: `userLogOut`})}>Log out</button>
                 </div>
             </div>
         </StyledMetaMaskWallet>

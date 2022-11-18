@@ -3,14 +3,11 @@ import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 import MarketGrafic from '../components/MarketGrafic';
 import MetamaskWallet from '../components/MetamaskWallet';
+import { useSelector } from 'react-redux';
+import { walletName } from '../store/selectors/userSelectors';
+import WalletConnect from '../components/WalletConnect';
 
 const StyledMarkets = styled.div `
-    .container {
-        max-width: 1250px;
-        padding: 0 20px;
-        margin: 0 auto;
-        margin-top: -70px;
-    }
     .market__connect {
         display: flex;
         justify-content: space-between;
@@ -67,19 +64,6 @@ const StyledMarkets = styled.div `
         padding-bottom: 55px;
         height: 70vh;
         overflow-y: auto;
-    }
-    .market__connect-btn--active {
-        background-color: #282931;
-        border: 2px solid rgb(58, 120, 255);
-        &:hover {
-            background-color: rgb(58, 120, 255);
-        }
-    }
-    .market__wallet-error {
-        color: #9e2020;
-        font-size: 11px;
-        font-weight: bold;
-        margin: 5px 0;
     }
 
     @media only screen and (max-width: 1440px) {
@@ -144,65 +128,21 @@ const StyledMarkets = styled.div `
         .market__title {
             display: none;
         }
-        .market__connect-btn {
-            width: 100%;
-        }
     }
 `
 
 function Markets() {
 
-    const [errorMessage, setErrorMessage] = useState(null);
-	const [defaultAccount, setDefaultAccount] = useState(null);
+    const wallet = useSelector(walletName);
     const [handleLogout, setHandleLogout] = useState(false);
-    const dispatch = useDispatch();
-
-	const connectWalletHandler = () => {
-        if(defaultAccount !== null) {
-            setHandleLogout(true);
-        }
-		if (window.ethereum && window.ethereum.isMetaMask) {
-			window.ethereum.request({ method: 'eth_requestAccounts'})
-			.then(result => {
-				accountChangedHandler(result[0].substring(0, 7) + '...');
-                dispatch({type: `metamaskThere`, payload: {name: result[0]}});
-			})
-			.catch(error => {
-				setErrorMessage(error.message);
-			});
-		} else {
-			setErrorMessage('Please install MetaMask browser extension to interact');
-		}
-	}
-
-    const accountChangedHandler = (newAccount) => {
-		setDefaultAccount(newAccount);
-	}
-
-    const chainChangedHandler = () => {
-		// reload the page to avoid any errors with chain change mid use of application
-		window.location.reload();
-	}
-
-    window.ethereum.on('accountsChanged', accountChangedHandler);
-	window.ethereum.on('chainChanged', chainChangedHandler);
-
 
     return (
         <StyledMarkets>
             <div className='container'>
                 <div className="market__connect">
                     <h2 className="market__title">Markets</h2>
-                    <button 
-                        className={defaultAccount === null ? 'market__connect-btn btn' : 'market__connect-btn--active btn'}
-                        type='button' 
-                        onClick={connectWalletHandler}>{defaultAccount !== null ?
-                            defaultAccount
-                            : 
-                            'Connect wallet'}
-                    </button>
+                    <WalletConnect setHandleLogout={setHandleLogout}/>
                 </div>
-                <p className='market__wallet-error'>{errorMessage}</p>
                 <div className="market__total-money">
                     <ul className="market__total-list">
                         <li className="market__total-item">
@@ -224,7 +164,7 @@ function Markets() {
                     </ul>
                 </div>
                 <MarketGrafic/>
-                {(defaultAccount !== null && handleLogout) && <MetamaskWallet setHandleLogout={setHandleLogout} setDefaultAccount={setDefaultAccount}/>}
+                {(wallet && handleLogout) && <MetamaskWallet setHandleLogout={setHandleLogout}/>}
             </div>
         </StyledMarkets>
     )
