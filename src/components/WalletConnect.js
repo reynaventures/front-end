@@ -39,7 +39,7 @@ function WalletConnect({ setHandleLogout }) {
         if(wallet) {
             setHandleLogout(true);
         }
-		if (window.ethereum && window.ethereum.isMetaMask) {
+		else if (window.ethereum && window.ethereum.isMetaMask) {
 			window.ethereum.request({ method: 'eth_requestAccounts'})
 			.then(result => {
 				accountChangedHandler(result[0]);
@@ -64,13 +64,14 @@ function WalletConnect({ setHandleLogout }) {
 
     window.ethereum.on('accountsChanged', accountChangedHandler);
 	window.ethereum.on('chainChanged', chainChangedHandler);
+    console.log(wallet);
     return (
         <StyledWalletConnect>
             <button 
                 className={!wallet ? 'market__connect-btn btn' : 'market__connect-btn--active btn'}
                 type='button' 
                 onClick={connectWalletHandler}>{wallet ?
-                    wallet.substring(0, 7) + '...'
+                    [...wallet].splice(0, 8).join('') + '...'
                     : 
                     'Connect wallet'}
             </button>

@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import { AiOutlineCopy } from 'react-icons/ai';
 import MetaMaskFox from '../assets/imgs/MetaMaskFox.png';
 import { useDispatch, useSelector } from 'react-redux';
 import { walletName } from '../store/selectors/userSelectors';
+import { useClipboard } from 'use-clipboard-copy';
 
 const StyledMetaMaskWallet = styled.div `
     position: fixed;
@@ -41,7 +42,6 @@ const StyledMetaMaskWallet = styled.div `
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 60px;
     }
     .wallet__wrap {
         padding: 20px 45px;
@@ -69,11 +69,18 @@ const StyledMetaMaskWallet = styled.div `
         margin-bottom: 3px;
     }
     .wallet__num {
-        font-size: 15px;
-        font-weight: bold;
         display: flex;
         justify-content: center;
         align-items: center;
+        input {
+            font-size: 15px;
+            font-weight: bold;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+            width: 400px;
+        }
     }
     .wallet__num-copy {
         color: #f0f;
@@ -95,11 +102,34 @@ const StyledMetaMaskWallet = styled.div `
         font-size: 30px;
         cursor: pointer;
     }
+    .copy-nice {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #2b5cc9;
+        transition: 0.3s all;
+        opacity: 0;
+    }
+    .copy-nice--active {
+        opacity: 1;
+    }
 `
 
 function MetamaskWallet({ setHandleLogout }) {
+
     const metamaskName = useSelector(walletName);
     const dispatch = useDispatch();
+    const clipboard = useClipboard();
+    const [copy, setCopy] = useState(false);
+    function copyWallet() {
+        setCopy(true);
+        setTimeout(() => {
+            setCopy(false);
+        }, 1500)
+    }
+
     return (
         <StyledMetaMaskWallet onClick={() => setHandleLogout(false)}>
             <div className="wallet" onClick={e => e.stopPropagation()}>
@@ -107,12 +137,13 @@ function MetamaskWallet({ setHandleLogout }) {
                 <span className="wallet__cross" onClick={() => setHandleLogout(false)}>x</span>
                 <div className="wallet__wrap">
                     <div className="wallet__info">
-                    <img src={MetaMaskFox} alt="" className="wallet__img" />
-                    <div className="wallet__metamask-main">
-                        <p className="wallet__name">MetaMask</p>
-                        <p className="wallet__num">{metamaskName} <AiOutlineCopy className='wallet__num-copy'/></p>
+                        <img src={MetaMaskFox} alt="" className="wallet__img" />
+                        <div className="wallet__metamask-main">
+                            <p className="wallet__name">MetaMask</p>
+                            <p className="wallet__num"><input type='text' ref={clipboard.target} value={metamaskName}/> <p onClick={clipboard.copy}><AiOutlineCopy className='wallet__num-copy' onClick={copyWallet}/></p></p>
+                        </div>
                     </div>
-                    </div>
+                    <p className={copy ? 'copy-nice--active copy-nice' : 'copy-nice'}>Wallet is copy..</p>
                     <button className='wallet__btn btn' type='button' onClick={() => dispatch({type: `userLogOut`})}>Log out</button>
                 </div>
             </div>
