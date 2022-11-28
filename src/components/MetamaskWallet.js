@@ -123,7 +123,7 @@ function MetamaskWallet({ setHandleLogout }) {
     const dispatch = useDispatch();
     const clipboard = useClipboard();
     const [copy, setCopy] = useState(false);
-    function copyWallet() {
+    const copyWallet = () => {
         setCopy(true);
         setTimeout(() => {
             setCopy(false);
